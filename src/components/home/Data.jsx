@@ -18,8 +18,7 @@ const Data = () => {
             <h3 className="home__subtitle">Software Engineer</h3>
             <p className="home__description">
                 I am a Software Developer based in Chicago, United States. I am pursuing
-                Master's in Computer Science at Illinois Institute of Technology. I have over 2 years(1 year internship) of industrial experience
-                with a Fintech Company @Cashfree Payments. Please find my relevant experience below.
+                Master's in Computer Science at Illinois Institute of Technology. Please find my relevant experience below.
             </p>
 
             <a href="mailto:psharma23@hawk.iit.edu" className="button button--flex">

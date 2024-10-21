@@ -1,7 +1,9 @@
 import React from 'react';
 import "./skills.css";
-import Frontend from "./Frontend";
-import Backend from "./Backend";
+import Frameworks from "./Frameworks";
+import Languages from "./Languages";
+import OperatingSystems from "./OperatingSystems";
+import WebTechDB from "./WebTechDB";
 
 const Skills = () => {
     return (
@@ -10,8 +12,10 @@ const Skills = () => {
             <span className="section__subtitle">My technical level</span>
 
             <div className="skills__container container grid">
-                <Frontend/>
-                <Backend/>
+                <Frameworks/>
+                <Languages/>
+                <WebTechDB/>
+                <OperatingSystems/>
             </div>
         </section>
     )

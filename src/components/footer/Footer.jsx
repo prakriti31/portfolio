@@ -2,6 +2,12 @@ import React from 'react'
 import "./footer.css";
 
 const Footer = () => {
+
+    const copyPhoneToClipboard = () => {
+        navigator.clipboard.writeText('+1 (312)-479-6193');
+        alert('Phone number copied to clipboard!');
+    };
+
     return (
         <footer className="footer">
             <div className="footer__container container">
@@ -13,28 +19,43 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#portfolio" className="footer__link">Projects</a>
+                        <a href="#skills" className="footer__link">Skills</a>
                     </li>
 
                     <li>
-                        <a href="#experience" className="footer__link">Experience</a>
+                        <a href="#qualification" className="footer__link">Experience</a>
                     </li>
+
+                    <li>
+                        <a href="#research" className="footer__link">Research</a>
+                    </li>
+
                 </ul>
 
                 <div className="footer__social">
-
-                    <a href="" className="footer__social-link" target="_blank">
-                        <i className="bx bxl-instagram"></i>
+                    <a href="https://www.linkedin.com/in/prakritisharma31/" className="footer_social-link"
+                       target="_blank" rel="noopener noreferrer" style={{color: 'black'}}>
+                        <i className="uil uil-linkedin" style={{color: 'black'}}></i>
                     </a>
 
-                    <a href="" className="footer__social-link" target="_blank">
-                        <i className="bx bxl-dribbble"></i>
-                    </a>
-                    <a href="" className="footer__social-link" target="_blank">
-                        <i className="bx bxl-github"></i>
+                    {/* Phone icon: copy to clipboard */}
+                    <div className="footer_social-link" onClick={copyPhoneToClipboard}
+                         style={{cursor: 'pointer', color: 'black'}}>
+                        <i className="uil uil-phone" style={{color: 'black'}}></i>
+                    </div>
+
+                    {/* Email: opens default mail client */}
+                    <a href="mailto:psharma23@hawk.iit.edu" className="footer_social-link" target="_blank"
+                       rel="noopener noreferrer" style={{color: 'black'}}>
+                        <i className="uil uil-envelope" style={{color: 'black'}}></i>
                     </a>
 
+                    <a href="https://github.com/prakriti31" className="footer_social-link" target="_blank"
+                       rel="noopener noreferrer" style={{color: 'black'}}>
+                        <i className="uil uil-github-alt" style={{color: 'black'}}></i>
+                    </a>
                 </div>
+
 
             </div>
         </footer>

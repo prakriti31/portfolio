@@ -1,23 +1,13 @@
 import React from 'react';
 
-const Frontend = () => {
+const Frameworks = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title"> Frontend Technologies
+            <h3 className="skills__title">Frameworks
             </h3>
 
             <div className="skills__box">
                 <div className="skills__group">
-
-                    <div className="skills__data">
-                        <i className='bx bxs-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills__name">HTML</h3>
-                            <span className="skills__level">Basic</span>
-                        </div>
-
-                    </div>
 
                     <div className="skills__data">
                         <i className='bx bxs-badge-check'></i>
@@ -28,11 +18,21 @@ const Frontend = () => {
                         </div>
 
                     </div>
+
                     <div className="skills__data">
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">JavaScript</h3>
+                            <h3 className="skills__name">NodeJs</h3>
+                            <span className="skills__level">Basic</span>
+                        </div>
+
+                    </div>
+                    <div className="skills__data">
+                        <i className='bx bxs-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills__name">ExpressJS</h3>
                             <span className="skills__level">Basic</span>
                         </div>
 
@@ -47,8 +47,8 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Bootstrap</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">Kafka</h3>
+                            <span className="skills__level">Basic</span>
                         </div>
 
                     </div>
@@ -57,7 +57,7 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Git</h3>
+                            <h3 className="skills__name">Spring Boot</h3>
                             <span className="skills__level">Advanced</span>
                         </div>
 
@@ -66,14 +66,23 @@ const Frontend = () => {
                         <i className='bx bxs-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">PHP</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">Bricks</h3>
+                            <span className="skills__level">Basic</span>
+                        </div>
+
+                    </div>
+
+                    <div className="skills__data">
+                        <i className='bx bxs-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills__name">Zookeeper</h3>
+                            <span className="skills__level">Basic</span>
                         </div>
 
                     </div>
 
                 </div>
-
 
 
             </div>
@@ -82,4 +91,4 @@ const Frontend = () => {
     )
 }
 
-export default Frontend
+export default Frameworks

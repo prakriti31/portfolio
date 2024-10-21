@@ -15,10 +15,9 @@ const About = () => {
                 <div className="about__data">
                 <Info/>
 
-                <p className="about__description">Software Developer, with 2 years of experience(1 year internship).
-                I have worked for a Payment Gateway service @Cashfree Payments. I am currently pursuing my Master's in
-                Computer Science at Illinois Institute Of Technology, Chicago. My coursework includes Advance Database Management, Advance Operating Systems,
-                Information Security, Networks and Communication. </p>
+                <p className="about__description">I am currently pursuing my Master's in
+                    Computer Science at Illinois Institute Of Technology, Chicago and also working as a Research Assistant under professor Wu-Hon Leung. My coursework includes Advance Database Management, Advance Operating Systems,
+                    Information Security, Networks and Communication. I have a work experience of over 2 years(1 year internship) as a Software Developer at a Payment Gateway Company @Cashfree Payments.</p>
                 <a download="" href={CV} className="button button--flex"> Download Resume
                     <svg
                         className="button__icon"
